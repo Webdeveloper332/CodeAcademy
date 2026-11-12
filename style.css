@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2 span {
+    color: #3b82f6;
+}
+
+
+nav ul {
+    background-color: rgba(111, 211, 244, 0.808);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 105px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+.hero{
+    background-color: rgba(0, 0, 0, 0.605);
+    color: rgba(255, 255, 255, 0.781);
+    padding: 100px 20px;
+    margin-top: -17px;;
+}
+
+.html {
+    padding: 50px 20px;
+   background-color: rgb(255, 196, 0);
+}
+
+.css {
+    padding: 50px 20px;
+   background-color: rgba(21, 0, 255, 0.808);
+}
+
+.javascript {
+    padding: 50px 20px;
+   background-color: rgba(255, 0, 0, 0.808);
+}
+
+.python {
+    padding: 50px 20px;
+   background-color: rgba(0, 255, 0, 0.808);
+}
+
+.sql {
+    padding: 50px 20px;
+   background-color: rgba(255, 0, 255, 0.808);
+}
+
+.course-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 254, 216, 0.605);
+    color: rgba(255, 255, 255, 0.781);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    background: #101827;
+    color: white;
+    padding: 50px 8% 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-about {
+    max-width: 280px;
+}
+
+.footer-about h2 span {
+    color: #3b82f6;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin: 12px 0;
+}
+
+.footer-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #3b82f6;
+}
+
+.footer-bottom {
+    border-top: 1px solid #334155;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    color: #94a3b8;
+}
